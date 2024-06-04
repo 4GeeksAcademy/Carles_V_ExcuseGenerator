@@ -44,9 +44,9 @@ function myFunction() {
     " ";
 }
 
-function reloadPage() {
-  document.getElementById("reload").innerHTML = location.reload();
-}
+// function reloadPage() {
+//   document.getElementById("reload").innerHTML = location.reload();
+// }
 
 document.getElementById("submit").addEventListener("click", myFunction);
-document.getElementById("reload").addEventListener("click", reloadPage);
+// document.getElementById("reload").addEventListener("click", reloadPage);
